@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/backstage_member.css" />
+  <!-- <link rel="stylesheet" href="./backstage_css.css"> -->
+  <script src="https://kit.fontawesome.com/558a93c615.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--#region 頁首 -->
+  <div class="page">
+    <div class="top_bar">
+      2023 謹賀新年！名店禮盒🎁兔年限定款🐰日式年味小物🍡都在這！
+    </div>
+    <!-- #region 頁首(LOGO,導覽頁,搜尋欄,購物車,登入註冊) -->
+    <div class="nav_bar">
+      <div class="nav_bar_container">
+        <!-- #region LOGO -->
+        <div class="nav_bar1">
+          <a href=""><img src="./img/select go_logo.png" alt="" /></a>
+        </div>
+        <!-- #endregion -->
+        <!-- #region 導覽頁-->
+        <div class="nav_bar2">
+          <a href="">熱門動態</a>
+          <a href="">限時發售</a>
+          <a href="">許願池</a>
+          <a href="">百貨商場</a>
+        </div>
+        <!-- #endregion -->
+        <!-- #region 搜尋欄 -->
+        <div class="searchdiv">
+          <input type="text" />
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <!-- #endregion -->
+        <!-- #region 購物車及登入註冊按鈕 -->
+        <div class="nav_bar3">
+          <a href=""><i class="fa-sharp fa-solid fa-store"></i></a>
+          <input type="button" src="" name="" id="" value="登入/註冊" />
+        </div>
+        <!-- #endregion -->
+      </div>
+    </div>
+    <!-- #endregion -->
+  </div>
+  <!--#endregion 頁首-------------------------- -->
+  <!-- 下面為後台管理頁面 -->
+  <div class="orderPageContainer">
+    <div class="memberLeftSider">
+      <div class="memberSelect">
+        <!-- <input type="file" name="" id=""> -->
+        <div class="memberProfile">
+          <img src="./img/profilePic.jpeg" alt="">
+        </div>
+        <span>選擇圖片</span>
+        <span>Irene Yang</span>
+        <div class="sidebarSelect">
+          <a href="">會員</a>
+          <a href="">訂單</a>
+          <a href="">商品</a>
+          <a href="">文章</a>
+        </div>
+        <span>登出</span>
+        <!-- <div class="forspace"></div> -->
+      </div>
+    </div>
+    <div class="memberRightSider">
+      <div class="memberColumn">
+        <span class="memberText">會員資料</span>
+        <div class="indivisualOrder">
+          <div>
+            <table>
+              <tr>
+                <th>會員ID</th>
+                <th>姓名</th>
+                <th>暱稱</th>
+                <th>Email</th>
+                <th>電話號碼</th>
+                <th>縣市</th>
+                <th>地址</th>
+                <th>性別</th>
+                <th>生日</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jess Smith</td>
+                <td>Jess.S</td>
+                <td>jess.s@gmail.com</td>
+                <td>0912345678</td>
+                <td>台中</td>
+                <td>西區公益路二號</td>
+                <td>女</td>
+                <td>02/19/1992</td>
+                <td><button>編輯</button></td>
+                <td><button>刪除</button></td>
+              </tr>
+              
+            </table>
+          </div>
+          <div class="changePage">
+            <a href=""><i class="fa-solid fa-arrow-left"></i></a>
+            1/10
+            <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
