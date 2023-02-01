@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.page {
+  width: 100%;
+  /* height: 2000vh; */
+  /* position: relative; */
+}
+
+.top_bar {
+  width: 100%;
+  background-color: #f38243;
+  text-align: center;
+  padding: 0.5em 0px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav_bar {
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+.nav_bar_container {
+  /* background-color: lightpink; */
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5em 0px;
+}
+
+.nav_bar1 {
+  width: 15%;
+}
+.nav_bar1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav_bar2 {
+  /* background-color: rgb(209, 90, 107); */
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav_bar2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2vw;
+}
+.searchdiv {
+  /* background-color: blue; */
+  width: 16%;
+  position: relative;
+}
+.searchdiv input {
+  height: 2.3em;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ffd5be;
+}
+.searchdiv a {
+  position: absolute;
+  font-size: 0.7em;
+  right: 7px;
+  top: 7px;
+}
+.nav_bar3 {
+  width: 11%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.fa-solid {
+  color: black;
+  font-size: 2em;
+}
+.nav_bar3 input {
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+.orderPageContainer{
+  display: flex;
+  column-gap: 50px;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+}
+.orderPageContainer img {
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "儷黑 Pro", "LiHei Pro", "Heiti TC", "PingFang SC", "Heiti SC", 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", "Microsoft YaHei", sans-serif; */
+}
+.memberSelect {
+  display: flex;
+  background-color: rgb(143, 143, 224);
+  padding: 20px;
+  font-size: 30px;
+  flex-direction: column;
+  /* text-align:end; */
+  align-items: center;
+  justify-content: center;
+}
+.memberSelect a:hover{
+  color: rgb(238, 151, 97);
+}
+.memberSelect a:active {
+  color: rgb(246, 79, 57);
+}
+.memberLeftSider {
+  display: flex;
+  background-color: rgb(200, 224, 143);
+  padding: 20px;
+  font-size: 20px;
+  text-align:left;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  border-radius: 1em;
+  /* align-items: center; */
+  /* grid-template-columns: 100px 200px 10px 30px; */
+  /* 想要把左邊的column變小 */
+}
+.orderContent{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  margin-top: 6em;
+}
+.memberRightSider {
+  display: flex;
+  /* align-items: flex-end; */
+  background-color: rgb(186, 186, 186);
+  border-radius: 1em;
+  width: 60em;
+  /* grid-template-columns: 100px 200px auto 100px; */
+}
+/* ????????????????????????????????????????????????????????????????? */
+.tableMember{  
+  /* 我要怎們放大table的框框然後讓句子變一行？ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.orderText {
+  /* (done)要把訂單記錄往右移至框框內 */
+  /* padding-left: 20px; */
+  position:relative;
+  left: 30px;
+  font-size:20px;
+  margin-top: 2em;
+}
+.memberSelect span {
+  font-size: medium;
+  text-align: center;
+  margin-top: 1em;
+}
+.memberProfile {
+  display: flex;
+  /* justify-content: space-around; */
+  background-color: rgb(241, 241, 245);
+}
+.sidebarSelect {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  font-size: 24px;
+  margin-top: 1em;
+}
+.sidebarSelect a:link {
+  text-decoration: none;
+  color: black;
+}
+.sidebarSelect a:visited {
+  text-decoration: none;
+  color: black;
+}
+.memberText {
+  margin: 2em;
+  margin-top: 2em;
+  background-color: #f38243;
+}
+.indivisualOrder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+  width: 50em;
+}
+table {
+  margin: 1.5em;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: black;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  border: black;
+}
+tr:nth-child(even) {
+  background-color: #aeaeae;
+  border: black;
+}
+/* .forspace{
+  display: flex;
+  justify-content: end;
+  background-color: aquamarine;
+} */
+.changePage {
+
+  text-align: center;
+}
+.changePage i {
+  font-size: small;
+}
+button {
+  /* border-radius: 0.3em;
+  border-color: #aeaeae; */
+  /* 按鈕美化 */
+	width: 3em; /* 寬度 */
+	height: 2em,; /* 高度 */
+	border-width: 0.1em; /* 邊框寬度 */
+	border-radius: 3px; /* 邊框半徑 */
+	background: #3f71a3; /* 背景顏色 */
+	cursor: pointer; /* 滑鼠移入按鈕範圍時出現手勢 */
+	outline: none; /* 不顯示輪廓線 */
+	font-family: Microsoft YaHei; /* 設定字型 */
+	color: white; /* 字型顏色 */
+	font-size: 16px; /* 字型大小 */
+}
+button:hover { /* 滑鼠移入按鈕範圍時改變顏色 */
+	background: #5599FF;
+}
+.memberTable {
+  display: flex;
+  
+}
+.memberTablenone {
+  display: none;
+}
